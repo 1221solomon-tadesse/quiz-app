@@ -17,4 +17,4 @@ mongoose.Connection(process.env.DB_URL,{
 .catch(err=>console.log("error occured",err));
 app.listen(port,()=>{
     console.log("server running")
-})
+});
